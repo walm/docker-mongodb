@@ -16,7 +16,7 @@ RUN \
 
 ADD mongodb.sh /etc/service/mongodb/run
 
-VOLUME ["/var/lib/mongodb"]
+# VOLUME ["/var/lib/mongodb"]
 
 EXPOSE 27017
 EXPOSE 28017

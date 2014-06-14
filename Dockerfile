@@ -1,4 +1,4 @@
-FROM walm/docker-base:0.1.1
+FROM walm/base:0.1.1
 MAINTAINER Andreas Wålm "andreas@walm.net"
 
 RUN \
